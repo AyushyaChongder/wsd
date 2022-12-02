@@ -74,6 +74,8 @@ function add()
 	var cell6 = row.insertCell(5);
 	var cell7 = row.insertCell(6);
   var cell8 = row.insertCell(7);
+  var cell9 = row.insertCell(8);
+
 	cell1.innerHTML+="<tr id=row"+x+"><td><input type='number'></td></tr>";
 	cell2.innerHTML+="<tr id=row"+x+"><td><input type='text'></td></tr>";
 	cell3.innerHTML+="<tr id=row"+x+"><td><input type='text'></td></tr>";
@@ -81,7 +83,9 @@ function add()
 	cell5.innerHTML+="<tr id=row"+x+"><td><input type='text'></td></tr>";
 	cell6.innerHTML+="<tr id=row"+x+"><td><input type='text'></td></tr>";
   cell7.innerHTML+="<tr id=row"+x+"><td><input type='text'></td></tr>";
-	cell8.innerHTML+="<tr id=row"+x+"<td><button type=button name=remove id="+x+" class=btn btn-danger btn_remove1 onclick=remove(id)>Remove</button></td> </tr>";
+  cell8.innerHTML+="<tr id=row"+x+"><td><input type='text'></td></tr>";
+  
+	cell9.innerHTML+="<tr id=row"+x+"<td><button type=button name=remove id="+x+" class=btn btn-danger btn_remove1 onclick=remove(id)>Remove</button></td> </tr>";
 }
 
 
